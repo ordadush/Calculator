@@ -83,10 +83,6 @@
     .dis-box:active {
         background-color: #6a8caf;;
     }
-    .box:active {
-        transform: scale(0.95);
-        transition: transform 0.1s;
-        
-    }
+
 
     
