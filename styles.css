@@ -29,20 +29,20 @@
         border-radius: 10px;
         transition: background-color 0.4s ease;
     }
-
-    .acction{
+    .box[data-type="acction"]{
         background-color: lightblue;
+
     }
-    .mark{
+    .box[data-type="operation-button"] {
         background-color: rgba(255, 166, 0, 0.521);
     }
-    .clear{
+    .box[data-type="clear"]{
         background-color: rgba(172, 54, 54, 0.555);
     }
-    .general{
+    .box[data-type="general"]{
         background-color: rgba(160, 160, 160, 0.555);
     }
-    .num{
+    .box[data-type="num"]{
         background-color: rgba(255, 255, 255, 0.555);
     }
     .display {
@@ -50,7 +50,7 @@
         justify-content: flex-end; /* מזיז את הספרה 0 לצד ימין */
         align-items: center;
         background-color: white;
-        padding: 20px;
+        padding: 18px;
         font-size: 40px;
         border-radius: 5px;
     }
@@ -59,6 +59,7 @@
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 10px;
+    ;
     }
     
     .dis-box {
@@ -70,6 +71,7 @@
         font-size: 18px;
         transition: background-color 0.4s ease;
     }
+    
     .box:hover,
     .dis-box:hover {
         cursor: pointer;
