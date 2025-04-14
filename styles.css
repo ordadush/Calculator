@@ -1,0 +1,9 @@
+
+.main_rectangle{
+    width: 50vh;
+    height: 70vh;
+    background-color: #b187874f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
