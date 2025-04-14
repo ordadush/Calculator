@@ -27,6 +27,7 @@
         justify-content: center;
         font-size: 24px;
         border-radius: 10px;
+        transition: background-color 0.4s ease;
     }
 
     .acction{
@@ -67,6 +68,19 @@
         align-items: center;
         height: 40px;
         font-size: 18px;
+        transition: background-color 0.4s ease;
     }
+    .box:hover,
+    .dis-box:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+        transition: transform 0.3s;
+    }
+
+    .box:active,
+    .dis-box:active {
+        background-color: #6a8caf;;
+    }
+
     
     
