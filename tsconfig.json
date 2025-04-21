@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // תואם לדפדפנים מודרניים
+    "module": "ES6",                          // תומך ב-import/export
+    "outDir": "./dist",                       // כל קבצי ה-JS יישמרו כאן
+    "rootDir": "./",                          // תיקיית המקור (היכן שה-ts)
+    "strict": true,                           // בדיקות מחמירות של טיפוסים
+    "esModuleInterop": true,                  // תמיכה בייבוא מ-CJS
+    "forceConsistentCasingInFileNames": true, // עוזר במערכות קבצים רגישות לאותיות
+    "skipLibCheck": true                      // מדלג על בדיקת קבצי טיפוסים חיצוניים
+  },
+  "include": [
+    "calculator.ts",
+    "entities.ts"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "This project is a **visual-only calculator interface** built using **HTML and CSS**.  \r It is designed as a frontend layout without JavaScript functionality, focusing purely on layout, structure, and design principles.",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ordadush/Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ordadush/Calculator/issues"
+  },
+  "homepage": "https://github.com/ordadush/Calculator#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
